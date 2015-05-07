@@ -1,6 +1,6 @@
 import java.util.*;
 public class ArrayAsociativo {
-   static class Primitive{
+  public  class Primitive{
 public String Key;
 public String Value;
 public Primitive(String n, String m){

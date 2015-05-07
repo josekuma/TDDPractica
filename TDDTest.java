@@ -1,10 +1,24 @@
 import static org.junit.Assert.*;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 
-public class TDDTest {
 
+
+import java.util.*;
+
+public class TDDTest<Primitive> {
+	List<Primitive> array;
+	@Before
+	public void setUp(){
+		array= new LinkedList<Primitive>();
+	}
+	@After
+	public void tearDown(){
+		array=null;
+	}
 	@Test
 	public void test() {
 		fail("Not yet implemented");
